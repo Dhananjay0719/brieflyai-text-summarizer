@@ -26,7 +26,7 @@ multiple summarization modes.
 ## 🖼️ Screenshots
 
 ### 🔹 Summarization Panel
-![Summarization Panel](screenshots/summarizer-panel.png)
+![Summarization Panel](screenshots/summerizer-panel.png)
 
 ### 🔹 Extractive Summarization (Fast Mode)
 ![Extractive Summarization](screenshots/extractive.png)
