@@ -45,3 +45,17 @@ Flask · spaCy · Transformers · PyTorch · Bootstrap · Render
 👉 
 
 ---
+
+## 🔁 Related Project (True Abstractive Version)
+
+This repository contains the **Flask-based hybrid summarization system**
+focused on system design, performance optimizations, and backend architecture.
+
+For the **true abstractive Transformer-based implementation** with a live demo,
+see the Hugging Face version:
+
+👉 **BrieflyAI (True Abstractive – HF Spaces)**  
+https://huggingface.co/spaces/dhananjay1907/BrieflyAI
+
+📦 Source Code:  
+https://github.com/Dhananjay0719/brieflyai-hf-space
