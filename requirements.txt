@@ -1,0 +1,6 @@
+flask
+spacy
+transformers>=4.30
+torch
+sentencepiece
+gunicorn
