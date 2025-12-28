@@ -1,8 +1,16 @@
 services:
   - type: web
+
     name: industrial-text-summarizer
+    
     env: python
+
     buildCommand: |
       pip install -r requirements.txt
       python -m spacy download en_core_web_sm
+      python - <<EOF
+      from transformers import pipeline
+      pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+      EOF
+
     startCommand: gunicorn app:app
